@@ -2,5 +2,9 @@
 {% block content %}
 <div id="content">
     <h2>blablabla</h2>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="inputFile">
+        <button type="submit">Send</button>
+    </form>
 </div>
 {% endblock %}
