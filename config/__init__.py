@@ -1,1 +1,1 @@
-print("YOU'VE BEED HACKED")
+print("YOU'VE BEEN HACKED")

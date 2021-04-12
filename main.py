@@ -7,7 +7,6 @@ import config.config
 
 app = Flask(__name__)
 app.secret_key = "oizeffazFEZIHfezz"
-app.debug = True
 
 
 def allowed_file(filename):
